@@ -1,47 +1,98 @@
-.header 
+/* bootstrap  */
+
+.header,.logo img,.path-main
 {
     background-color: rgb(5, 9, 21);
 }
-.logo img
-{
-    background-color: rgb(5, 9, 21);
-}
+
 body
 {
     font-family:-apple-system,BlinkMacSystemFont,Inter,Arial,Segoe UI,Roboto,Oxygen,Ubuntu,Fira Sans,Droid Sans,Helvetica Neue,sans-serif!important;
 }
 /* courses body */
-.header-main h1
+.header-main h1,.path-main
 {
     font-weight: 700 ;
     letter-spacing: -1px;
     font-size: 2.25rem
 }
-.card-custom {
+.card-custom{
+    height:80px;
     background-color: #e0f7fa; /* Light blue background */
     border: none;
+    border-radius: 10px;
     cursor: pointer;
     transition-property: all !important;
     transition-timing-function: cubic-bezier(.4, 0, .2, 1) !important;
     transition-duration: .5s !important;
-}
-.card-transition:hover
+}  
+
+
+.card-custom:hover
 {
-    transition-property: all !important;
-    transition-timing-function: cubic-bezier(.4,0,.2,1) !important;
-    transition-duration: .5s !important;
+    background-color: #b2ebf2; /* Slightly darker blue on hover */
+    transform: scale(1.05);
 }
 
-.card-body {
+.card-body1{
     display: flex;
     align-items: center;
 }
 .card-text {
     font-weight: bold;
-    font-size: 1.5rem;
+    font-size: 1.25rem ;
+    line-height: 1.75rem !important;
     margin-right: auto;
 }
 .card-img {
-    width: 50px;
-    height: 50px;
+    width: 40px;
+    height: 40px;
+}
+
+/*  */
+.path-main
+{
+ padding-left:8rem;
+}
+.path-card
+{
+    width: 18rem;
+    height:15rem;
+}
+.card-custom1 
+{
+    padding: 20px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    transition-property: all !important;
+    transition-timing-function: cubic-bezier(.4, 0, .2, 1) !important;
+    transition-duration: .5s !important;
+}  
+.card-custom1:hover
+{
+    
+    transform: scale(1.05);
+}
+.path-title
+{
+    font-size: 1.25rem;
+    font-weight: 700;
+}
+.path-text
+{
+    font-size: 1rem;
+    font-weight: 400;
+}
+
+@media (max-width:1050px) {
+    .card-custom1
+{
+    width: 90%;
+  
+}
+.path-main
+{
+ padding-left:5rem;
+}
 }
