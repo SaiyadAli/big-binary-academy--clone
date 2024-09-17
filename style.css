@@ -1,0 +1,47 @@
+.header 
+{
+    background-color: rgb(5, 9, 21);
+}
+.logo img
+{
+    background-color: rgb(5, 9, 21);
+}
+body
+{
+    font-family:-apple-system,BlinkMacSystemFont,Inter,Arial,Segoe UI,Roboto,Oxygen,Ubuntu,Fira Sans,Droid Sans,Helvetica Neue,sans-serif!important;
+}
+/* courses body */
+.header-main h1
+{
+    font-weight: 700 ;
+    letter-spacing: -1px;
+    font-size: 2.25rem
+}
+.card-custom {
+    background-color: #e0f7fa; /* Light blue background */
+    border: none;
+    cursor: pointer;
+    transition-property: all !important;
+    transition-timing-function: cubic-bezier(.4, 0, .2, 1) !important;
+    transition-duration: .5s !important;
+}
+.card-transition:hover
+{
+    transition-property: all !important;
+    transition-timing-function: cubic-bezier(.4,0,.2,1) !important;
+    transition-duration: .5s !important;
+}
+
+.card-body {
+    display: flex;
+    align-items: center;
+}
+.card-text {
+    font-weight: bold;
+    font-size: 1.5rem;
+    margin-right: auto;
+}
+.card-img {
+    width: 50px;
+    height: 50px;
+}
